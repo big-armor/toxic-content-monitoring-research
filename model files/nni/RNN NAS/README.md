@@ -8,8 +8,3 @@ To use this, one cannot simply install pytorch and NNI using pipenv. Instead, th
 * install `nni`, `dill`, and `pandas`, through pipenv, if you want.
 * install pytorch and torchvision through `pip install torch===1.4.0 torchvision===0.5.0 -f https://download.pytorch.org/whl/torch_stable.html`.
 * install torchnlp through `pip install pytorch-nlp`.
-
-
-
-
-
