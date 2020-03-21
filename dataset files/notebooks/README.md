@@ -9,4 +9,4 @@ Directory:
 * KaggleWordSplits.ipynb - notebook for text processing based on kaggle conpetition best notebook.
 * HF_BERT.ipynb - Used to make encoding set for BERT using the small dataset + the huggingface transformers library.
 * allennlp_bert.ipynb - Used to make a BERT encoding using the AllenNLP library.
-
+* Amazon Translation.ipynb - Contains code used to mass-translate russian using Amazon's API.
