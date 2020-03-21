@@ -1,0 +1,2 @@
+NNI cannot be installed simultaneously with imbalanced-learn through pipenv. Instead, one must install it separately through pip, which doesn't complain.
+
