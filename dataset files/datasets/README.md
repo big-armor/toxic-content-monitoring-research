@@ -29,4 +29,3 @@ x_matrix = np.loadtxt('toxic_rnn_matrix.out', delimiter=',')
 X_train, X_test, y_train, y_test = train_test_split(x_matrix, y, test_size= 0.2)
 ```
 * toxic_elmo_matrix.out - An ELMo encoding of the full text dataset.
-
