@@ -10,3 +10,5 @@ Directory:
 * HF_BERT.ipynb - Used to make encoding set for BERT using the small dataset + the huggingface transformers library.
 * allennlp_bert.ipynb - Used to make a BERT encoding using the AllenNLP library.
 * Amazon Translation.ipynb - Contains code used to mass-translate russian using Amazon's API.
+* basilica_embeddings.ipynb - Notebook that encodes toxic-train-clean.csv using
+Basilica and also basilica_y.csv.
