@@ -5,3 +5,4 @@ Directory:
 
 * /model files - contains all the files pertaining to hyperparameter tuning and neural architecture search through the NNI library.
 * /dataset files - contains all the misc datasets and relevant notebooks.
+* /some history.txt - a basic description of the research directions taken durring the eproject.
