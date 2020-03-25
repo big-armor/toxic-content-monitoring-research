@@ -31,5 +31,5 @@ x_matrix = np.loadtxt('toxic_rnn_matrix.out', delimiter=',')
 X_train, X_test, y_train, y_test = train_test_split(x_matrix, y, test_size= 0.2)
 ```
 * toxic_elmo_matrix.out - An ELMo encoding of the full text dataset.
-* basilica_toxic_clean.out - A Basilica encoding of the toxic-train-clean dataset
-but is 1 row short.
+* basilica_toxic_clean.out - A Basilica encoding of the toxic-train-clean dataset but is 1 row short.
+* /Top 100 - Contains the ~top 100 words associated with each category.

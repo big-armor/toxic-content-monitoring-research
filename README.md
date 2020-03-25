@@ -7,3 +7,4 @@ Directory:
 * /model notebooks - contains all the notebooks used for training and testing
 different classifier models with embeddings.
 * /dataset files - contains all the misc datasets and relevant notebooks.
+* /some history.txt - a basic description of the research directions taken durring the eproject.
