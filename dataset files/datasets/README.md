@@ -17,6 +17,8 @@ X_train, X_test, y_train, y_test = train_test_split(x_matrix, y, test_size= 0.2)
 * toxic-train-w-lems.zip - Contains toxic-train-w-lems.csv. The dataset available through the kaggle competition extended with a column with lemmas derived using Spacy. Lemmatization takes a long time, importing this and using `df[“lemmas”] = df[“lemmas”].apply(eval)` is a lot quicker.
 * toxic-train-clean.csv - The dataset available through the kaggle with “comment_text” cleaned.
 * toxic-train-clean-small.csv - The dataset available through the kaggle with “comment_text” cleaned, and filtered for a length less than 520.
+* basilica_y.csv - Y matrix that coordinates with the basilica_toxic_clean.out
+encoding.
 
 Other files (most of these are too large to store):
 * toxic-train.csv - The dataset available through the kaggle competition.
@@ -29,4 +31,5 @@ x_matrix = np.loadtxt('toxic_rnn_matrix.out', delimiter=',')
 X_train, X_test, y_train, y_test = train_test_split(x_matrix, y, test_size= 0.2)
 ```
 * toxic_elmo_matrix.out - An ELMo encoding of the full text dataset.
+* basilica_toxic_clean.out - A Basilica encoding of the toxic-train-clean dataset but is 1 row short.
 * /Top 100 - Contains the ~top 100 words associated with each category.
