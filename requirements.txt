@@ -15,6 +15,7 @@ starlette==0.13.2
 tensorflow>=2.0.0
 ipykernel
 pandas
+pytorch-nlp
 scikit-learn
 scikit-image
 wandb
